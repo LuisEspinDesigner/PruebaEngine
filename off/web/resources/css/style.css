@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 sept. 2020, 12:42:14
+    Author     : Lemmar
+*/
+body { margin: 0; padding: 0; }
+
+#mapa-mapbox { position: absolute; top: 0; bottom: 0; width: 100%; }
+
+#coordinates {     
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    padding: 5px 10px;
+    margin: 0;
+    font-size: 11px;
+    line-height: 18px;
+    border-radius: 3px;
+    display: none;
+}
+
+.mapboxgl-popup {
+    max-width: 400px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+.contenido{
+    position: absolute;
+}
+.contenido{
+    z-index: 2;
+}
